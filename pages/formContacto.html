@@ -7,66 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../styles/estilos.css">
     <title>Gotitas de Rocío</title>
-    <link rel="icon" type="image/x-icon" href="./../assets/images/logo.png">
+    <link rel="icon" type="image/x-icon" href="./../assets/images/logo/logo.png">
 </head>
 
 <body id="bgBodyColor">
 
     <header class="cabecera">
-        <a class="head logo" href="./../index.html"><img src="./../assets/images/logo.png"
+        <a class="head logo" href="./../index.html"><img src="./../assets/images/logo/logo.png"
                 alt="Logo de la pagina web Jardin Gotitas de Rocio (hongo caricaturizado)"></a>
         <h1 class="head titulo">Gotitas de Rocío</h1>
         <h2 class="head subTitulo">JARDIN MARTERNO INFANTIL</h2>
     </header>
 
-    <nav>
-        <div class="direccionador">            
-            <a class="naver nosotros" href="./../pages/nosotros.html">Nosotros</a>
-            <a class="naver convivencia" href="./../pages/convivencia.html">Convivencia</a>
-            <a class="naver reglamento" href="./../pages/reglamento.html">Reglamento</a>
-            <a class="naver recursos" href="./../pages/recursos.html">Recursos</a>
-            <a class="naver diversion" href="./../pages/diversion.html">Diversión</a>
-        </div>
-    </nav>>
+    <nav class="direccionador">
+        <a class="naver inicio" href="./../index.html">Inicio</a>
+        <a class="naver nosotros" href="./../pages/nosotros.html">Nosotros</a>
+        <a class="naver convivencia" href="./../pages/convivencia.html">Convivencia</a>
+        <a class="naver reglamento" href="./../pages/reglamento.html">Reglamento</a>
+        <a class="naver recursos" href="./../pages/recursos.html">Recursos</a>
+        <a class="naver diversion" href="./../pages/diversion.html">Diversión</a>
+    </nav>
 
-    <section class="contenedor">
-        <article id="contactoArt">
-            <table class="tablaContenedor">
-                <tr>
-                    <th>
-                        <h2>Formulario de contacto</h2>
-                        <form action="./../pages/php/enviar.php" method="post" enctype="text/plain" netlify>
+    <main class="contenedorContacto">
+        <h3 class="cont1">Formulario de contacto</h3>
+        <form class="cont2" action="./../pages/php/enviar.php" method="post" enctype="text/plain" netlify>
 
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre"><br><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre"><br><br>
 
-                            <label for="apellido">Apellido:</label>
-                            <input type="text" name="Apellido"><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="Apellido"><br><br>
 
-                            <label for="correo">Correo:</label>
-                            <input type="email" name="correo"><br><br>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo"><br><br>
 
-                            <label for="alumno">Es alumno: </label>
-                            <input type="checkbox" name="alumno" id=""><br><br>
+            <label for="alumno">Es alumno: </label>
+            <input type="checkbox" name="alumno" id=""><br><br>
 
-                            <label for="sala">Indique la sala a la que concurre</label><br>
-                            <input type="radio" name="sala" id="">3 años <br>
-                            <input type="radio" name="sala" id="">4 años <br>
-                            <input type="radio" name="sala" id="">5 años <br>
-                            <input type="radio" name="sala" id="">6 años <br><br>
+            <label for="sala">Indique la sala a la que concurre</label><br>
+            <input type="radio" name="sala" id="">3 años <br>
+            <input type="radio" name="sala" id="">4 años <br>
+            <input type="radio" name="sala" id="">5 años <br>
+            <input type="radio" name="sala" id="">6 años <br><br>
 
-                            <label for="comentarios">Comentarios:</label><br>
-                            <textarea name="comentarios" id="" cols="70" rows="15"></textarea><br><br>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea name="comentarios" id="" cols="70" rows="15"></textarea><br><br>
 
-                            <input type="submit" value="Enviando" class="botonContacto">
-                            <input type="reset" class="botonContacto">
-                        </form>
-                    </th>
-                </tr>
-            </table>
-
-        </article>
-    </section>
+            <input type="submit" value="Enviando" class="botonContacto">
+            <input type="reset" class="botonContacto">
+        </form>
+    </main>
 
     <footer>
         <div class="piePagina">
@@ -80,13 +70,12 @@
                 <p>Habilitación: 17895/278</p>
                 <p>Habilitación Defensa Civil: 480/FG/2013</p>
             </div>
-            <a class="botonContacto" href="./../pages/formContacto.html">Contactanos</a>
         </div>
     </footer>
 
     <div class="subir">
         <a href="#">
-            <img src="./../assets/images/fall-1293016.png" alt="">
+            <img src="./../assets/images/iconos/fall-1293016.png" alt="Sube al tope de la página">
         </a>
     </div>
 
