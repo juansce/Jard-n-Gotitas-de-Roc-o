@@ -21,6 +21,19 @@
     background-image: linear-gradient(to bottom, #034001, #218C03, #1B7302, #155902, #102601);
 }
 
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 2rem;
+    background-image: url(./../assets/images/iconos/logo.ico);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
 
 /* -- Boton subir -- */
 
@@ -80,6 +93,8 @@
 /* -- NAV -- */
 
 
+
+
 /* -- contenedor principal del menú --*/
 
 .direccionador {
@@ -95,6 +110,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 
 /* -- propiedades generales de los componentes del menú -- */
 
@@ -1367,7 +1383,7 @@ a {
 
     /* -- FOOTER --*/
 
-    
+
     /* -- contenedor principal del pie de pagina --*/
     .piePagina {
         grid-template-columns: repeat(3, 1fr);
