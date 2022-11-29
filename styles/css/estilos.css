@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/* Importando Generalidades*/
+/* breackpoints*/
+/*tamanio fuente*/
+/* colores */
+/*color texto general*/
+/*color texto cabecera*/
+/*color texto menu (bgc: background-color)*/
+/* box shadow del menu*/
+/*configuracion grilla*/
+/* -- propiedades generales de los componentes del menú -- */
+/*tam=text-align --- brm=border-radius --- bsm=box-shadow menu --- bgcm=background-color menu --- bgch=background-color hover --- bsh=box-shadow hover --- tch=color hover*/
+/* -- Fuentes -- */
+@font-face {
+  font-family: mochiyPopOn;
+  src: url(/assets/fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf); }
+
+/* -- Reseteo -- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mochiyPopOn; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: linear-gradient(to bottom, #034001, #218C03, #1B7302, #155902, #102601); }
+
+/* -- Boton subir -- */
+.subir {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.192);
+  border-radius: 50px; }
+
+.subir img {
+  background-position: center;
+  height: 50px;
+  width: 50px; }
+
+/*configuracion del anchor*/
+a {
+  color: white;
+  text-shadow: 5px 5px 15px black;
+  text-decoration: none; }
+
+/* Importando Utilidades */
+/* -- propiedades generales del encavezado --*/
+.cabecera {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  place-self: center;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  padding: 20px; }
+  .cabecera .cabLogo img {
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px; }
+  .cabecera .cabTitulo {
+    text-align: center;
+    color: #f70909;
+    text-shadow: 2px 12px 8px #032805; }
+  .cabecera .cabSubtitulo {
+    text-align: center;
+    color: #f70909;
+    text-shadow: 2px 12px 8px #032805; }
+
+/* -- contenedor principal del menú --*/
+.direccionador {
+  background-color: #36b39038; }
+
+.naver {
+  font-size: medium;
+  text-align: center;
+  border-radius: 50px 0px 50px 0px;
+  padding: 10px;
+  margin: 3px; }
+
+.inicio {
+  background-color: #fe8e7b;
+  box-shadow: 14px 14px 50px #fe8e7b; }
+
+.inicio:hover {
+  background-color: #6EECFF;
+  box-shadow: 14px 14px 50px #6EECFF;
+  color: #fe8e7b; }
+
+.nosotros {
+  background-color: #ff6787;
+  box-shadow: 14px 14px 50px #ff6787; }
+
+.nosotros:hover {
+  background-color: #36B390;
+  box-shadow: 14px 14px 50px #36B390;
+  color: #ff6787; }
+
+.convivencia {
+  background-color: #ffb68c;
+  box-shadow: 14px 14px 50px #ffb68c; }
+
+.convivencia:hover {
+  background-color: #80BDFF;
+  box-shadow: 14px 14px 50px #80BDFF;
+  color: #ffb68c; }
+
+.reglamento {
+  background-color: #55cbd3;
+  box-shadow: 14px 14px 50px #55cbd3; }
+
+.reglamento:hover {
+  background-color: #C7EDC7;
+  box-shadow: 14px 14px 50px #C7EDC7;
+  color: #55cbd3; }
+
+.recursos {
+  background-color: #d18bc0;
+  box-shadow: 14px 14px 50px #d18bc0; }
+
+.recursos:hover {
+  background-color: #97D1B0;
+  box-shadow: 14px 14px 50px #97D1B0;
+  color: #d18bc0; }
+
+.diversion {
+  background-color: #DDBFF2;
+  box-shadow: 14px 14px 50px #DDBFF2; }
+
+.diversion:hover {
+  background-color: #D2F2CB;
+  box-shadow: 14px 14px 50px #D2F2CB;
+  color: #DDBFF2; }
+
+/* -- propiedades generales del pie de pagina --*/
+.piePagina {
+  width: 100%;
+  color: white;
+  text-shadow: 5px 5px 15px black;
+  background-color: #36b39038;
+  padding: 20px;
+  font-size: 1.2em; }
+  .piePagina p {
+    padding: 10px; }
+  .piePagina a {
+    text-decoration: none;
+    color: #E3812B; }
+  .piePagina .contacto {
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(153, 205, 50, 0.169);
+    box-shadow: 14px 14px 50px #9acd32;
+    text-shadow: 5px 5px 15px black; }
+  .piePagina .contacto:hover {
+    background-color: #a129d98e;
+    box-shadow: 14px 14px 50px #A229D9;
+    text-shadow: 5px 5px 15px #9acd32;
+    color: #9acd32; }
+
+/* Importando Paginas */
+/* Importando Generalidades*/
+/* Responsividad para Moviles*/
+@media only screen and (max-width: 576px) {
+  /*Cabecera*/
+  .cabecera {
+    grid-template-rows: repeat(3, auto); }
+    .cabecera .cabLogo {
+      grid-column: 1/13;
+      grid-row: 1/2; }
+    .cabecera .cabTitulo {
+      grid-column: 1/13;
+      grid-row: 2/3;
+      font-size: 4em; }
+    .cabecera .cabSubtitulo {
+      grid-column: 1/13;
+      grid-row: 3/4;
+      font-size: 2em; }
+  /*Menu de navegacion*/
+  .direccionador {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 1px;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 10px;
+    width: 100%; }
+  /*Footer*/
+  .piePagina {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 1px;
+    justify-content: center;
+    align-items: center; } }
+
+/* Responsividad para Tablets*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .cabecera {
+    grid-template-rows: repeat(2, auto); }
+    .cabecera .cabLogo {
+      grid-column: 1/6;
+      grid-row: 1/3; }
+    .cabecera .cabTitulo {
+      grid-column: 6/13;
+      grid-row: 1/2;
+      font-size: 4em;
+      width: 100%; }
+    .cabecera .cabSubtitulo {
+      grid-column: 6/13;
+      grid-row: 2/3;
+      font-size: 2em;
+      width: 100%; }
+  /*Menu de navegacion*/
+  .direccionador {
+    display: flex;
+    flex-flow: row nowrap;
+    row-gap: 0.3px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px; }
+    .direccionador .naver {
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      width: 100%;
+      margin: 0; }
+  /*Footer*/
+  .piePagina {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 1px;
+    justify-content: center;
+    align-items: center; } }
+
+/* Responsividad para PCEscritorios*/
+@media only screen and (min-width: 769px) {
+  .cabecera {
+    grid-template-rows: repeat(2, auto); }
+    .cabecera .cabLogo {
+      grid-column: 1/6;
+      grid-row: 1/3; }
+    .cabecera .cabTitulo {
+      grid-column: 6/13;
+      grid-row: 1/2;
+      font-size: 7em;
+      width: 100%; }
+    .cabecera .cabSubtitulo {
+      grid-column: 6/13;
+      grid-row: 2/3;
+      font-size: 2em;
+      width: 100%; }
+  /*Menu de navegacion*/
+  .direccionador {
+    display: flex;
+    flex-flow: row nowrap;
+    row-gap: 0.3px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px; }
+    .direccionador .naver {
+      font-size: 2rem;
+      padding: 10px 20px;
+      margin: 0;
+      width: 100%; }
+  /*Footer*/
+  .piePagina {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    place-self: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+    font-size: 2em; }
+    .piePagina .pie1 {
+      grid-column: 1/6;
+      grid-row: 1/2; }
+    .piePagina .pie2 {
+      grid-column: 1/6;
+      grid-row: 2/3; }
+    .piePagina .pie3 {
+      grid-column: 1/6;
+      grid-row: 3/4; }
+    .piePagina .pie4 {
+      grid-column: 6/13;
+      grid-row: 1/2; }
+    .piePagina .pie5 {
+      grid-column: 6/13;
+      grid-row: 2/3; }
+    .piePagina .pie6 {
+      grid-column: 6/13;
+      grid-row: 3/4; }
+    .piePagina .contacto {
+      grid-column: 1/13;
+      grid-row: 4/5;
+      width: 400px;
+      height: 80px; } }

@@ -1,0 +1,23 @@
+/* Importando Generalidades*/
+@import "./generalidades/variables";
+@import "./generalidades/extenders";
+@import "./generalidades/maps";
+@import "./generalidades/mixins";
+@import "./generalidades/normalizador";
+
+
+/* Importando Utilidades */
+@import "./utilidades/header";
+@import "./utilidades/nav";
+@import "./utilidades/footer";
+
+/* Importando Paginas */
+@import "./paginas/convivencia";
+@import "./paginas/diversion";
+@import "./paginas/formContacto";
+@import "./paginas/inicio";
+@import "./paginas/nosotros";
+@import "./paginas/recursos";
+@import "./paginas/reglamento";
+/* Importando Generalidades*/
+@import "./generalidades/responsives";

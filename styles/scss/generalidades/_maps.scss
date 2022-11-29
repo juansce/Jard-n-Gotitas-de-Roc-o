@@ -1,0 +1,48 @@
+/* -- propiedades generales de los componentes del menú -- */
+/*tam=text-align --- brm=border-radius --- bsm=box-shadow menu --- bgcm=background-color menu --- bgch=background-color hover --- bsh=box-shadow hover --- tch=color hover*/
+$naver: (
+    tam:center,
+    brm: 50px 0px 50px 0px,
+);
+$menu1: (
+    bgcm: #fe8e7b,
+    bsm: $boxShaMenu #fe8e7b,
+    bgch: #6EECFF,
+    bsh: $boxShaMenu #6EECFF,
+    tch: #fe8e7b,
+);
+$menu2: (
+    bgcm: #ff6787,
+    bsm: $boxShaMenu #ff6787,
+    bgch: #36B390,
+    bsh: $boxShaMenu #36B390,
+    tch: #ff6787,
+);
+$menu3: (
+    bgcm: #ffb68c,
+    bsm: $boxShaMenu #ffb68c,
+    bgch: #80BDFF,
+    bsh: $boxShaMenu #80BDFF,
+    tch: #ffb68c,
+);
+$menu4: (
+    bgcm: #55cbd3,
+    bsm: $boxShaMenu #55cbd3,
+    bgch: #C7EDC7,
+    bsh: $boxShaMenu #C7EDC7,
+    tch: #55cbd3,
+);
+$menu5: (
+    bgcm: #d18bc0,
+    bsm: $boxShaMenu #d18bc0,
+    bgch: #97D1B0,
+    bsh: $boxShaMenu #97D1B0,
+    tch: #d18bc0,
+);
+$menu6: (
+    bgcm: #DDBFF2,
+    bsm: $boxShaMenu #DDBFF2,
+    bgch: #D2F2CB,
+    bsh: $boxShaMenu #D2F2CB,
+    tch: #DDBFF2,
+);

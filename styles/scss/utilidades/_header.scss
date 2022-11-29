@@ -1,0 +1,29 @@
+/* -- propiedades generales del encavezado --*/
+.cabecera {
+    @include grid(center, center, center);
+    width: 100%;
+    grid-template-columns: $columnas;
+    gap: 10px;
+    padding: 20px;
+
+    .cabLogo img {
+        margin: auto;
+        display: block;
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .cabTitulo {
+        text-align: center;
+        color: $cabeceraTextColor;
+        text-shadow: $cabeceraShadowTextColor;
+    }
+
+    .cabSubtitulo {
+        text-align: center;
+        color: $cabeceraTextColor;
+        text-shadow: $cabeceraShadowTextColor;
+    }
+}
+

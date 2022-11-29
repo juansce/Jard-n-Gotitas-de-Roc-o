@@ -1,0 +1,46 @@
+/* -- Fuentes -- */
+@font-face {
+    font-family: mochiyPopOn;
+    src: url(/assets/fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf);
+}
+
+/* -- Reseteo -- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mochiyPopOn;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: $bgBodyColor;
+}
+
+/* -- Boton subir -- */
+
+.subir {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: $bgSubir;
+    border-radius: 50px;
+}
+
+.subir img {
+    background-position: center;
+    height: 50px;
+    width: 50px;
+}
+
+/*configuracion del anchor*/
+a {
+    color: $textColor;
+    text-shadow: $textShadowColor;
+    text-decoration: none;
+}

@@ -2,24 +2,7 @@
 /*#    Configuraciones generales     #*/
 /*####################################*/
 
-/* -- Reseteo -- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: mochiyPopOn;
-}
 
-/* -- Fuentes -- */
-
-@font-face {
-    font-family: mochiyPopOn;
-    src: url(./../assets/fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf);
-}
-
-#bgBodyColor {
-    background-image: linear-gradient(to bottom, #034001, #218C03, #1B7302, #155902, #102601);
-}
 
 ul {
     padding-left: 2rem;
@@ -35,58 +18,11 @@ ul li {
 }
 
 
-/* -- Boton subir -- */
-
-.subir {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    text-align: center;
-    line-height: 40px;
-    background-color: rgba(255, 255, 255, 0.192);
-    border-radius: 50px;
-}
-
-.subir img {
-    background-position: center;
-    height: 50px;
-    width: 50px;
-}
-
 
 
 /* -- HEADER -- */
 
 
-/* -- contenedor principal del encabezado --*/
-.cabecera {
-    width: 100%;
-    display: grid;
-    padding: 20px;
-    align-items: center;
-}
-
-/* -- propiedades generales del encavezado --*/
-.logo img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50px;
-}
-
-.titulo {
-    text-align: center;
-    color: rgb(247, 9, 9);
-    text-shadow: 2px 12px 8px rgb(3, 40, 5);
-}
-
-.subTitulo {
-    height: auto;
-    text-align: center;
-    color: rgb(247, 9, 9);
-    text-shadow: 2px 5px 5px rgb(2, 27, 3);
-}
 
 
 
@@ -94,104 +30,6 @@ ul li {
 
 
 
-
-/* -- contenedor principal del menú --*/
-
-.direccionador {
-    width: 100%;
-    display: grid;
-    padding: 20px;
-    background-color: #36b39038;
-}
-
-/* -- propiedades generales del menú --*/
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-
-/* -- propiedades generales de los componentes del menú -- */
-
-.nosotros {
-    background-color: #ff6787;
-    box-shadow: 14px 14px 50px #ff6787;
-}
-
-.historia {
-    background-color: #fe8e7b;
-    box-shadow: 14px 14px 50px #fe8e7b;
-}
-
-.convivencia {
-    background-color: #ffb68c;
-    box-shadow: 14px 14px 50px #ffb68c;
-}
-
-.reglamento {
-    background-color: #97ed97;
-    box-shadow: 14px 14px 50px #97ed97;
-}
-
-.recursos {
-    background-color: #55cbd3;
-    box-shadow: 14px 14px 50px #55cbd3;
-}
-
-.actividades {
-    background-color: #d18bc0;
-    box-shadow: 14px 14px 50px #d18bc0;
-}
-
-.diversion {
-    background-color: #DDBFF2;
-    box-shadow: 14px 14px 50px #DDBFF2;
-}
-
-/* -- animaciones generales de los componentes del menú -- */
-
-.nosotros:hover {
-    background-color: #36B390;
-    box-shadow: 14px 14px 50px #36B390;
-    color: #ff6787;
-}
-
-.historia:hover {
-    background-color: #6EECFF;
-    box-shadow: 14px 14px 50px #6EECFF;
-    color: #fe8e7b;
-}
-
-.convivencia:hover {
-    background-color: #80BDFF;
-    box-shadow: 14px 14px 50px #80BDFF;
-    color: #ffb68c;
-}
-
-.reglamento:hover {
-    background-color: #9577A1;
-    box-shadow: 14px 14px 50px #9577A1;
-    color: #97ed97;
-}
-
-.recursos:hover {
-    background-color: #C7EDC7;
-    box-shadow: 14px 14px 50px #C7EDC7;
-    color: #9577A1;
-}
-
-.actividades:hover {
-    background-color: #97D1B0;
-    box-shadow: 14px 14px 50px #97D1B0;
-    color: #d18bc0;
-}
-
-.diversion:hover {
-    background-color: #D2F2CB;
-    box-shadow: 14px 14px 50px #D2F2CB;
-    color: #DDBFF2;
-}
 
 
 
@@ -359,41 +197,6 @@ a {
 /* -- FOOTER --*/
 
 
-/* -- contenedor principal del pie de pagina --*/
-.piePagina {
-    width: 100%;
-    display: grid;
-    color: white;
-    background-color: #36b39038;
-    padding: 20px;
-}
-
-/* -- propiedades generales del pie de pagina --*/
-.piePagina a {
-    text-decoration: none;
-    color: #E3812B;
-}
-
-.piePagina p {
-    padding: 7px
-}
-
-.botonContacto {
-    width: 400px;
-    height: 60px;
-    font-size: 1.5em;
-    text-align: center;
-    border-radius: 5px;
-    background-color: rgba(153, 205, 50, 0.169);
-    box-shadow: 14px 14px 50px #9acd32;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0);
-}
-
-.botonContacto:hover {
-    background-color: #A229D9;
-    box-shadow: 14px 14px 50px #A229D9;
-    color: #9acd32;
-}
 
 
 

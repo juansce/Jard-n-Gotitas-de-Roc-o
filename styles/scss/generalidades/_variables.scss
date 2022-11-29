@@ -1,0 +1,32 @@
+/* breackpoints*/
+$celulares: 576px;
+$tabletsMin: 577px;
+$tabletsMax: 768px;
+$pcEscritorios: 769px;
+/*tamanio fuente*/
+$large: 7em;
+$medium: 4em;
+$base: 2em;
+$small: 1.4em;
+$smaller: 1.2em;
+/* colores */
+$bgBodyColor: linear-gradient(to bottom, #034001, #218C03, #1B7302, #155902, #102601);
+$bgSubir: rgba(255, 255, 255, 0.192);
+$bgGeneral:#36b39038;
+/*color texto general*/
+$textColor: white;
+$textShadowColor: 5px 5px 15px black;
+/*color texto cabecera*/
+$cabeceraTextColor: rgb(247, 9, 9);
+$cabeceraShadowTextColor: 2px 12px 8px rgb(3, 40, 5);
+/*color texto menu (bgc: background-color)*/
+$inicio-bgc: #fe8e7b;
+$nosotros-bgc: #ff6787;
+$convivencia-bgc: #ffb68c;
+$reglamento-bgc: #55cbd3;
+$recursos-bgc: #d18bc0;
+$diversion-bgc: #DDBFF2;
+/* box shadow del menu*/
+$boxShaMenu: 14px 14px 50px;
+/*configuracion grilla*/
+$columnas: repeat(12, 1fr);

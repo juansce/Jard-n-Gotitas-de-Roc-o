@@ -1,0 +1,15 @@
+@mixin grid ($item, $contenedor, $auto){
+    display: grid;
+    place-items: $item;
+    place-content: $contenedor;
+    place-self: $auto;
+}
+
+@mixin flex($modo, $direccion, $relleno, $espaciado, $justificado, $alineado ){
+    display: $modo;
+    flex-flow: $direccion $relleno;
+    row-gap: $espaciado;
+    justify-content: $justificado;
+    align-items: $alineado;
+
+}
