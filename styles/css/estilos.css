@@ -23,10 +23,17 @@
   font-family: mochiyPopOn; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  color: white;
+  text-shadow: 5px 5px 15px black; }
 
 body {
   background-image: linear-gradient(to bottom, #034001, #218C03, #1B7302, #155902, #102601); }
+  body img {
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 100%; }
 
 /* -- Boton subir -- */
 .subir {
@@ -63,10 +70,6 @@ a {
   gap: 10px;
   padding: 20px; }
   .cabecera .cabLogo img {
-    margin: auto;
-    display: block;
-    height: 100%;
-    width: 100%;
     border-radius: 50px; }
   .cabecera .cabTitulo {
     text-align: center;
@@ -172,6 +175,31 @@ a {
     color: #9acd32; }
 
 /* Importando Paginas */
+.contenedorInicio {
+  font-size: 1.8em;
+  padding: 10px; }
+  .contenedorInicio div {
+    border: solid 3px greenyellow;
+    border-radius: 10px;
+    padding: 10px; }
+  .contenedorInicio .ini2 {
+    background-color: #55cbd3; }
+  .contenedorInicio .ini5 {
+    background-color: #ff6787; }
+  .contenedorInicio .ini8 {
+    background-color: #d18bc0; }
+  .contenedorInicio img {
+    border-radius: 20px;
+    padding: 10px; }
+  .contenedorInicio h3 {
+    padding: 10px;
+    text-align: center; }
+  .contenedorInicio p {
+    padding: 10px;
+    text-align: justify; }
+  .contenedorInicio br {
+    padding: 60px; }
+
 /* Importando Generalidades*/
 /* Responsividad para Moviles*/
 @media only screen and (max-width: 576px) {
@@ -246,6 +274,7 @@ a {
 
 /* Responsividad para PCEscritorios*/
 @media only screen and (min-width: 769px) {
+  /*Cabecera*/
   .cabecera {
     grid-template-rows: repeat(2, auto); }
     .cabecera .cabLogo {
@@ -274,6 +303,42 @@ a {
       padding: 10px 20px;
       margin: 0;
       width: 100%; }
+  /*Pagina Inicio*/
+  .contenedorInicio {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    place-self: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(16, auto);
+    font-size: 2em; }
+    .contenedorInicio .ini1 {
+      grid-column: 1/7;
+      grid-row: 1/4; }
+    .contenedorInicio .ini2 {
+      grid-column: 7/13;
+      grid-row: 1/2; }
+    .contenedorInicio .ini3 {
+      grid-column: 7/13;
+      grid-row: 2/6; }
+    .contenedorInicio .ini4 {
+      grid-column: 1/7;
+      grid-row: 4/8; }
+    .contenedorInicio .ini5 {
+      grid-column: 7/13;
+      grid-row: 6/10; }
+    .contenedorInicio .ini6 {
+      grid-column: 1/7;
+      grid-row: 8/12; }
+    .contenedorInicio .ini7 {
+      grid-column: 7/13;
+      grid-row: 10/14; }
+    .contenedorInicio .ini8 {
+      grid-column: 1/7;
+      grid-row: 12/17; }
+    .contenedorInicio .ini9 {
+      grid-column: 7/13;
+      grid-row: 14/17; }
   /*Footer*/
   .piePagina {
     display: grid;

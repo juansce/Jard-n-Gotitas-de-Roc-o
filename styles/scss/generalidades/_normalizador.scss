@@ -13,9 +13,17 @@
 }
 html{
     font-size: 62.5%;
+    color: $textColor;
+    text-shadow: $textShadowColor;
 }
 body{
     background-image: $bgBodyColor;
+    img{
+        margin: auto;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 /* -- Boton subir -- */
