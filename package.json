@@ -4,7 +4,9 @@
   "description": "en este proyecto del curso de desarrollo web de coderhouse, se presenta una pagina web de un jardin materno-infantil",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss styles/scss/estilos.scss styles/css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
