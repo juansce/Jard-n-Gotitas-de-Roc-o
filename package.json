@@ -1,0 +1,23 @@
+{
+  "name": "gotitas-de-rocio",
+  "version": "1.0.0",
+  "description": "en este proyecto del curso de desarrollo web de coderhouse, se presenta una pagina web de un jardin materno-infantil",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juansce/preEntrega2-MONZON.git"
+  },
+  "author": "juan carlos monzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juansce/preEntrega2-MONZON/issues"
+  },
+  "homepage": "https://github.com/juansce/preEntrega2-MONZON#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
