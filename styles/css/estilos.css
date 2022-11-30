@@ -58,6 +58,16 @@ a {
   text-shadow: 5px 5px 15px black;
   text-decoration: none; }
 
+ul {
+  padding: 1rem;
+  list-style-type: none; }
+  ul li {
+    padding: 2rem;
+    background-image: url(/assets/images/iconos/logo.ico);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat; }
+
 /* Importando Utilidades */
 /* -- propiedades generales del encavezado --*/
 .cabecera {
@@ -175,6 +185,34 @@ a {
     color: #9acd32; }
 
 /* Importando Paginas */
+.contenedorConvivencia {
+  padding: 10px;
+  font-size: 1.8em;
+  text-align: center; }
+  .contenedorConvivencia div {
+    border-radius: 20px; }
+  .contenedorConvivencia h3 {
+    background-color: #ffb68c;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px; }
+  .contenedorConvivencia h4 {
+    text-transform: uppercase;
+    padding: 10px; }
+  .contenedorConvivencia li {
+    text-align: start; }
+  .contenedorConvivencia br {
+    padding: 60px; }
+  .contenedorConvivencia img {
+    border-radius: 20px;
+    padding: auto; }
+  .contenedorConvivencia .conv3 {
+    background-color: #55cbd3; }
+  .contenedorConvivencia .conv5 {
+    background-color: #d18bc0; }
+  .contenedorConvivencia .conv7 {
+    background-color: #DDBFF2; }
+
 .contenedorInicio {
   font-size: 1.8em;
   padding: 10px; }
@@ -192,6 +230,7 @@ a {
     border-radius: 20px;
     padding: 10px; }
   .contenedorInicio h3 {
+    text-transform: uppercase;
     padding: 10px;
     text-align: center; }
   .contenedorInicio p {
@@ -213,6 +252,7 @@ a {
     padding: 15px;
     margin: 10px; }
   .contenedorNosotros h4 {
+    text-transform: uppercase;
     padding: 10px; }
   .contenedorNosotros p {
     padding: 10px;
@@ -378,7 +418,7 @@ a {
     place-self: center;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(11, auto);
-    font-size: 3.5em;
+    font-size: 2em;
     gap: 10px; }
     .contenedorNosotros .art1 {
       grid-column: 1/13;
@@ -407,6 +447,37 @@ a {
     .contenedorNosotros .art9 {
       grid-column: 1/13;
       grid-row: 10/12; }
+  /*pagina convivencia*/
+  .contenedorConvivencia {
+    display: grid;
+    place-items: none;
+    place-content: center;
+    place-self: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, auto);
+    font-size: 2em;
+    gap: 10px; }
+    .contenedorConvivencia .conv1 {
+      grid-column: 1/13;
+      grid-row: 1/2; }
+    .contenedorConvivencia .conv2 {
+      grid-column: 1/7;
+      grid-row: 2/4; }
+    .contenedorConvivencia .conv3 {
+      grid-column: 7/13;
+      grid-row: 2/6; }
+    .contenedorConvivencia .conv4 {
+      grid-column: 7/13;
+      grid-row: 6/7 8; }
+    .contenedorConvivencia .conv5 {
+      grid-column: 1/7;
+      grid-row: 4/8; }
+    .contenedorConvivencia .conv6 {
+      grid-column: 1/7;
+      grid-row: 8/9; }
+    .contenedorConvivencia .conv7 {
+      grid-column: 7/13;
+      grid-row: 7/9; }
   /*Footer*/
   .piePagina {
     display: grid;

@@ -1,0 +1,38 @@
+.contenedorConvivencia{
+    padding: 10px;
+    font-size: 1.8em;
+    text-align: center;
+    div{
+        border-radius: 20px;
+    }
+    h3{
+        background-color:$convivencia-bgc;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px;
+    }
+    h4{
+        text-transform: uppercase;
+        padding: 10px;
+    }
+    li{
+        text-align:start;
+    }
+    br{
+        padding: 60px;
+    }
+    img{
+        border-radius: 20px;
+        padding: auto;
+    }
+    .conv3{
+        background-color: $reglamento-bgc;
+    }
+    .conv5{
+        background-color: $recursos-bgc;
+    }
+    .conv7{
+        background-color: $diversion-bgc;
+    }
+
+}
