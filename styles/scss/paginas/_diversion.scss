@@ -1,0 +1,72 @@
+.contenedorDiversion {
+    font-size: 1.8em;
+    padding: 10px;
+    text-align: center;
+
+    h3 {
+        background-color: $diversion-bgc;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    h4 {
+        background-color: $reglamento-bgc;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    p {
+        text-align: start;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.186);
+    }
+
+    img {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 25px;
+        height: 100%;
+        width: 100%;
+    }
+
+    iframe {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 40px;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .juego1 {
+        background-color: $inicio-bgc;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .juego2 {
+        background-color: $nosotros-bgc;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .juego3 {
+        background-color: $convivencia-bgc;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .juego4 {
+        background-color: $recursos-bgc;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 5px;
+    }
+}

@@ -1,0 +1,89 @@
+/* -- Fuentes -- */
+@font-face {
+    font-family: mochiyPopOn;
+    src: url(/assets/fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf);
+}
+
+/* -- Reseteo -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mochiyPopOn;
+}
+
+html {
+    font-size: 62.5%;
+    color: $textColor;
+    text-shadow: $textShadowColor;
+}
+
+@keyframes fondoBody {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#bgBodyColor {
+    width: 100%;
+    height: 100vh;
+    background: $bgBodyColor;
+    position: relative;
+    animation: fondoBody 20s ease-in-out infinite;
+    background-size: 400% 400%;
+}
+
+img {
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* -- Boton subir -- */
+
+.subir {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: $bgSubir;
+    border-radius: 50px;
+}
+
+.subir img {
+    background-position: center;
+    height: 50px;
+    width: 50px;
+}
+
+/*configuracion del anchor*/
+a {
+    color: $textColor;
+    text-shadow: $textShadowColor;
+    text-decoration: none;
+}
+
+ul {
+    padding: 1rem;
+    list-style-type: none;
+
+    li {
+        padding: 1rem;
+        background-image: url(/assets/images/iconos/logo.ico);
+        background-position: 0 0;
+        background-size: 1.6rem 1.6rem;
+        background-repeat: no-repeat;
+    }
+}

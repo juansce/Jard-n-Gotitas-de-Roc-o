@@ -1,0 +1,82 @@
+/* -- contenedor principal del menú --*/
+
+.direccionador {
+
+    background-color: #36b39038;
+}
+
+.naver {
+    font-size: medium;
+    text-align: map-get($naver, "tam");
+    border-radius: map-get($naver, "brm");
+    padding: 10px;
+    margin: 3px;
+}
+
+.inicio {
+    background-color: map-get($menu1, "bgcm");
+    box-shadow: map-get($menu1, "bsm");
+}
+
+.inicio:hover {
+    background-color: map-get($menu1, "bgch");
+    box-shadow: map-get($menu1, "bsh");
+    color: map-get($menu1, "tch");
+}
+
+.nosotros {
+    background-color: map-get($menu2, "bgcm");
+    box-shadow: map-get($menu2, "bsm");
+}
+
+.nosotros:hover {
+    background-color: map-get($menu2, "bgch");
+    box-shadow: map-get($menu2, "bsh");
+    color: map-get($menu2, "tch");
+}
+
+.convivencia {
+    background-color: map-get($menu3, "bgcm");
+    box-shadow: map-get($menu3, "bsm");
+}
+
+.convivencia:hover {
+    background-color: map-get($menu3, "bgch");
+    box-shadow: map-get($menu3, "bsh");
+    color: map-get($menu3, "tch");
+}
+
+
+.reglamento {
+    background-color: map-get($menu4, "bgcm");
+    box-shadow: map-get($menu4, "bsm");
+}
+
+.reglamento:hover {
+    background-color: map-get($menu4, "bgch");
+    box-shadow: map-get($menu4, "bsh");
+    color: map-get($menu4, "tch");
+}
+
+.recursos {
+    background-color: map-get($menu5, "bgcm");
+    box-shadow: map-get($menu5, "bsm");
+}
+
+.recursos:hover {
+    background-color: map-get($menu5, "bgch");
+    box-shadow: map-get($menu5, "bsh");
+    color: map-get($menu5, "tch");
+}
+
+
+.diversion {
+    background-color: map-get($menu6, "bgcm");
+    box-shadow: map-get($menu6, "bsm");
+}
+
+.diversion:hover {
+    background-color: map-get($menu6, "bgch");
+    box-shadow: map-get($menu6, "bsh");
+    color: map-get($menu6, "tch");
+}

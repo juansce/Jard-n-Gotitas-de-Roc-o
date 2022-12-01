@@ -1,0 +1,52 @@
+.contenedorNosotros {
+    font-size: 1.8em;
+    padding: 10px;
+    text-align: center;
+
+    article {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        background-color: $nosotros-bgc ;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    p {
+        padding: 10px;
+        text-align: start;
+    }
+
+    br {
+        padding: 60px;
+    }
+
+    img {
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .art3 {
+        background-color: $convivencia-bgc;
+    }
+
+    .art5 {
+        background-color: $reglamento-bgc;
+    }
+
+    .art7 {
+        background-color: $recursos-bgc;
+    }
+
+    .art9 {
+        background-color: $diversion-bgc;
+    }
+}

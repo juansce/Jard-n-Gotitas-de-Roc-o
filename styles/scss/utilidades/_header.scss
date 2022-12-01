@@ -1,0 +1,22 @@
+/* -- propiedades generales del encavezado --*/
+.cabecera {
+    font-size: $base;
+    margin: 10px;
+    text-align: center;
+    color: $cabeceraTextColor;
+    text-shadow: $cabeceraShadowTextColor;
+
+    img {
+        padding: 10px;
+
+    }
+
+    h1 {
+        padding: 10px;
+
+    }
+
+    h2 {
+        padding: 10px;
+    }
+}
