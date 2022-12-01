@@ -71,24 +71,17 @@ ul {
 /* Importando Utilidades */
 /* -- propiedades generales del encavezado --*/
 .cabecera {
-  display: grid;
-  place-items: center;
-  place-content: center;
-  place-self: center;
-  width: 100%;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
-  padding: 20px; }
-  .cabecera .cabLogo img {
-    border-radius: 50px; }
-  .cabecera .cabTitulo {
-    text-align: center;
-    color: #f70909;
-    text-shadow: 2px 12px 8px #032805; }
-  .cabecera .cabSubtitulo {
-    text-align: center;
-    color: #f70909;
-    text-shadow: 2px 12px 8px #032805; }
+  font-size: 2em;
+  margin: 10px;
+  text-align: center;
+  color: #f70909;
+  text-shadow: 2px 12px 8px #032805; }
+  .cabecera img {
+    padding: 10px; }
+  .cabecera h1 {
+    padding: 10px; }
+  .cabecera h2 {
+    padding: 10px; }
 
 /* -- contenedor principal del menú --*/
 .direccionador {
@@ -451,18 +444,22 @@ ul {
 @media only screen and (max-width: 576px) {
   /*Cabecera*/
   .cabecera {
-    grid-template-rows: repeat(3, auto); }
+    display: grid;
+    place-items: center;
+    place-content: center;
+    place-self: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, auto); }
     .cabecera .cabLogo {
       grid-column: 1/13;
-      grid-row: 1/2; }
+      grid-row: 1/6; }
     .cabecera .cabTitulo {
       grid-column: 1/13;
-      grid-row: 2/3;
-      font-size: 4em; }
+      grid-row: 6/8; }
     .cabecera .cabSubtitulo {
       grid-column: 1/13;
-      grid-row: 3/4;
-      font-size: 2em; }
+      grid-row: 8/9;
+      font-size: 1em; }
   /*Menu de navegacion*/
   .direccionador {
     display: flex;
@@ -480,24 +477,29 @@ ul {
     justify-content: center;
     align-items: center; } }
 
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /* Responsividad para Tablets*/
 @media only screen and (min-width: 577px) and (max-width: 768px) {
+  /*Cabecera*/
   .cabecera {
-    grid-template-rows: repeat(2, auto);
-    height: 200px; }
+    display: grid;
+    place-items: none;
+    place-content: center;
+    place-self: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, auto);
+    font-size: 3.5em; }
     .cabecera .cabLogo {
-      grid-column: 1/6;
-      grid-row: 1/3; }
+      grid-column: 3/11;
+      grid-row: 1/2; }
     .cabecera .cabTitulo {
-      grid-column: 6/13;
-      grid-row: 1/2;
-      font-size: 4em;
-      width: 100%; }
+      grid-column: 1/13;
+      grid-row: 2/4; }
     .cabecera .cabSubtitulo {
-      grid-column: 6/13;
-      grid-row: 2/3;
-      font-size: 2em;
-      width: 100%; }
+      grid-column: 1/13;
+      grid-row: 4/5;
+      font-size: 1em; }
   /*Menu de navegacion*/
   .direccionador {
     display: flex;
@@ -712,24 +714,30 @@ ul {
     justify-content: center;
     align-items: center; } }
 
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
 /* Responsividad para PCEscritorios*/
 @media only screen and (min-width: 769px) {
   /*Cabecera*/
   .cabecera {
-    grid-template-rows: repeat(2, auto); }
+    display: grid;
+    place-items: none;
+    place-content: center;
+    place-self: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, auto);
+    font-size: 3.5em; }
     .cabecera .cabLogo {
-      grid-column: 1/6;
-      grid-row: 1/3; }
+      grid-column: 1/5;
+      grid-row: 1/6;
+      width: 100%; }
     .cabecera .cabTitulo {
-      grid-column: 6/13;
-      grid-row: 1/2;
-      font-size: 7em;
-      width: 100%; }
+      grid-column: 5/13;
+      grid-row: 1/3; }
     .cabecera .cabSubtitulo {
-      grid-column: 6/13;
-      grid-row: 2/3;
-      font-size: 2em;
-      width: 100%; }
+      grid-column: 5/13;
+      grid-row: 3/5;
+      font-size: 1em; }
   /*Menu de navegacion*/
   .direccionador {
     display: flex;
