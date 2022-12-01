@@ -208,7 +208,121 @@
         }
     }
 
-
+    /*main pagina diversion*/
+    .contenedorDiversion{
+        @include grid(none, center, center);
+        grid-template-columns: $columnas;
+        grid-template-rows: repeat(5, auto);
+        gap: 5px;
+        .diversionTitulo{
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .juego1{
+            grid-column: 1/13;
+            grid-row: 2/3;
+        }
+        .juego2{
+            grid-column: 1/13;
+            grid-row:3/4 ;
+        }
+        .juego3{
+            grid-column: 1/13;
+            grid-row: 4/5;
+        }
+        .juego4{
+            grid-column: 1/13;
+            grid-row: 5/6;
+        }
+        .juego1 {
+            @include grid(none, center, center);
+        grid-template-columns: $columnas;
+        grid-template-rows: repeat(4, auto);
+        gap: 5px;
+        .juego11 {
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .juego12 {
+            grid-column: 1/7;
+            grid-row: 2/5;
+        }
+        .juego13 {
+            grid-column: 7/13;
+            grid-row: 2/3;
+        }
+        .juego14 {
+            grid-column: 7/13;
+            grid-row: 3/5;
+        }
+        }
+        .juego2 {
+            @include grid(none, center, center);
+        grid-template-columns: $columnas;
+        grid-template-rows: repeat(4, auto);
+        gap: 5px;
+        .juego21 {
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .juego22 {
+            grid-column: 1/13;
+            grid-row: 2/3;
+        }
+        .juego23 {
+            grid-column: 1/7;
+            grid-row: 3/5;
+        }
+        .juego24 {
+            grid-column: 7/13;
+            grid-row: 3/5;
+        }
+        }
+        .juego3 {
+            @include grid(none, center, center);
+        grid-template-columns: $columnas;
+        grid-template-rows: repeat(4, auto);
+        gap: 5px;
+        .juego31 {
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .juego32 {
+            grid-column: 1/13;
+            grid-row: 2/3;
+        }
+        .juego33 {
+            grid-column: 1/7;
+            grid-row: 3/5;
+        }
+        .juego34 {
+            grid-column: 7/13;
+            grid-row: 3/5;
+        }
+        }
+        .juego4 {
+            @include grid(none, center, center);
+        grid-template-columns: $columnas;
+        grid-template-rows: repeat(4, auto);
+        gap: 5px;
+        .juego41 {
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .juego42 {
+            grid-column: 1/13;
+            grid-row: 2/3;
+        }
+        .juego43 {
+            grid-column: 1/7;
+            grid-row: 3/5;
+        }
+        .juego44 {
+            grid-column: 7/13;
+            grid-row: 3/5;
+        }
+        }
+    }
 
 
 
@@ -258,7 +372,7 @@
         }
     }
 
-    /*Pagina Inicio*/
+    /*main Pagina Inicio*/
     .contenedorInicio {
         @include grid(center, center, center);
         grid-template-columns: $columnas;
@@ -311,7 +425,7 @@
         }
     }
 
-    /*Pagina nosotros*/
+    /*main Pagina nosotros*/
     .contenedorNosotros {
         @include grid(none, center, center);
         grid-template-columns: $columnas;
@@ -365,7 +479,7 @@
         }
     }
 
-    /*pagina convivencia*/
+    /*main pagina convivencia*/
     .contenedorConvivencia {
         @include grid(none, center, center);
         grid-template-columns: $columnas;
@@ -410,7 +524,7 @@
     }
 
 
-    /*Pagina Reglamento*/
+    /*main Pagina Reglamento*/
     .contenedorReglamento {
         @include grid(none, center, center);
         grid-template-columns: $columnas;
@@ -602,7 +716,121 @@
         }
     }
 
-
+/*main pagina diversion*/
+.contenedorDiversion{
+    @include grid(none, center, center);
+    grid-template-columns: $columnas;
+    grid-template-rows: repeat(5, auto);
+    gap: 5px;
+    .diversionTitulo{
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .juego1{
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .juego2{
+        grid-column: 1/13;
+        grid-row:3/4 ;
+    }
+    .juego3{
+        grid-column: 1/13;
+        grid-row: 4/5;
+    }
+    .juego4{
+        grid-column: 1/13;
+        grid-row: 5/6;
+    }
+    .juego1 {
+        @include grid(none, center, center);
+    grid-template-columns: $columnas;
+    grid-template-rows: repeat(4, auto);
+    gap: 5px;
+    .juego11 {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .juego12 {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .juego13 {
+        grid-column: 1/7;
+        grid-row: 3/5;
+    }
+    .juego14 {
+        grid-column: 7/13;
+        grid-row:3/5;
+    }
+    }
+    .juego2 {
+        @include grid(none, center, center);
+    grid-template-columns: $columnas;
+    grid-template-rows: repeat(4, auto);
+    gap: 5px;
+    .juego21 {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .juego22 {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .juego23 {
+        grid-column: 1/7;
+        grid-row: 3/5;
+    }
+    .juego24 {
+        grid-column: 7/13;
+        grid-row: 3/5;
+    }
+    }
+    .juego3 {
+        @include grid(none, center, center);
+    grid-template-columns: $columnas;
+    grid-template-rows: repeat(4, auto);
+    gap: 5px;
+    .juego31 {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .juego32 {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .juego33 {
+        grid-column: 1/7;
+        grid-row: 3/5;
+    }
+    .juego34 {
+        grid-column: 7/13;
+        grid-row: 3/5;
+    }
+    }
+    .juego4 {
+        @include grid(none, center, center);
+    grid-template-columns: $columnas;
+    grid-template-rows: repeat(4, auto);
+    gap: 5px;
+    .juego41 {
+        grid-column: 1/13;
+        grid-row: 1/2;
+    }
+    .juego42 {
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .juego43 {
+        grid-column: 1/7;
+        grid-row: 3/5;
+    }
+    .juego44 {
+        grid-column: 7/13;
+        grid-row: 3/5;
+    }
+    }
+}
 
 
 
