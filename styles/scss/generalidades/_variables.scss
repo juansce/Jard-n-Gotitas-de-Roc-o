@@ -11,7 +11,7 @@ $small: 1.4em;
 $smaller: 1.2em;
 /* colores */
 $bgSubir: rgba(255, 255, 255, 0.192);
-$bgGeneral:#36b39038;
+$bgGeneral: #36b39038;
 /*color texto general*/
 $textColor: white;
 $textShadowColor: 5px 5px 15px black;
@@ -25,7 +25,7 @@ $convivencia-bgc: #ffb68c;
 $reglamento-bgc: #55cbd3;
 $recursos-bgc: #d18bc0;
 $diversion-bgc: #DDBFF2;
-$bgBodyColor: linear-gradient(45deg ,$inicio-bgc,$nosotros-bgc,$convivencia-bgc,$recursos-bgc,$diversion-bgc );
+$bgBodyColor: linear-gradient(45deg, $inicio-bgc, $nosotros-bgc, $convivencia-bgc, $recursos-bgc, $diversion-bgc );
 /* box shadow del menu*/
 $boxShaMenu: 14px 14px 50px;
 /*configuracion grilla*/

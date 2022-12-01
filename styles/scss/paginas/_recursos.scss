@@ -27,7 +27,8 @@
                 background-color: $inicio-bgc;
                 border-radius: 50px;
             }
-            p{
+
+            p {
                 padding: 10px;
             }
         }
@@ -38,32 +39,38 @@
         border-radius: 5px;
         padding: 15px;
         margin: 10px;
-        .titulo2{
+
+        .titulo2 {
             background-color: $convivencia-bgc;
             padding: 10px;
             margin: 5px;
             border-radius: 5px;
         }
+
         h4 {
             padding: 10px;
             background-color: $nosotros-bgc;
             border-radius: 50px;
         }
-        p{
+
+        p {
             padding: 10px;
         }
     }
-    figure{
+
+    figure {
         font-size: 0.6em;
         border: solid $convivencia-bgc 1px;
         margin: 5px;
         border-radius: 20px;
         padding: 10px;
-        img{
+
+        img {
             border-radius: 20px;
             margin: 5px;
         }
-        figcaption{
+
+        figcaption {
             margin: 10px;
         }
     }

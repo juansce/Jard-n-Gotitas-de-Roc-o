@@ -3,7 +3,7 @@
     width: 100%;
     color: $textColor;
     text-shadow: $textShadowColor;
-    
+
     padding: 20px;
     font-size: $smaller;
 
@@ -27,10 +27,12 @@
         box-shadow: 14px 14px 50px #9acd32;
         text-shadow: $textShadowColor;
     }
+
     .contacto:hover {
         background-color: #a129d98e;
         box-shadow: 14px 14px 50px #A229D9;
-        text-shadow:5px 5px 15px #9acd32; ;
+        text-shadow: 5px 5px 15px #9acd32;
+        ;
         color: #9acd32;
     }
 }

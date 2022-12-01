@@ -1,50 +1,63 @@
-.contenedorReglamento{
+.contenedorReglamento {
     padding: 10px;
     font-size: 1.8em;
     text-align: center;
-    div{
+
+    div {
         margin: 10px;
         border-radius: 20px;
     }
-    .reg{
+
+    .reg {
         padding: 10px;
     }
-    h3{
-        background-color:$reglamento-bgc;
+
+    h3 {
+        background-color: $reglamento-bgc;
         border-radius: 5px;
         padding: 15px;
         margin: 10px;
     }
-    h4{
+
+    h4 {
         text-transform: uppercase;
         padding: 10px;
     }
-    li{
-        text-align:start;
+
+    li {
+        text-align: start;
     }
-    br{
+
+    br {
         padding: 60px;
     }
-    img{
+
+    img {
         border-radius: 20px;
         padding: 10px;
     }
-    .reg3{
+
+    .reg3 {
         background-color: $inicio-bgc;
     }
-    .reg4{
+
+    .reg4 {
         background-color: $nosotros-bgc;
     }
-    .reg6{
+
+    .reg6 {
         background-color: $convivencia-bgc;
     }
-    .reg7{
+
+    .reg7 {
         background-color: $reglamento-bgc;
     }
-    .reg9{
+
+    .reg9 {
         background-color: $recursos-bgc;
     }
-    .reg10{
+
+    .reg10 {
         background-color: $diversion-bgc;
     }
 }

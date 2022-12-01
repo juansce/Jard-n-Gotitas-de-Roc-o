@@ -1,34 +1,42 @@
-.contenedorInicio{
+.contenedorInicio {
     font-size: 1.8em;
     padding: 10px;
+
     div {
         border: solid 3px greenyellow;
         border-radius: 10px;
         padding: 10px;
     }
-    .ini2{
+
+    .ini2 {
         background-color: $reglamento-bgc;
     }
-    .ini5{
+
+    .ini5 {
         background-color: $nosotros-bgc;
     }
-    .ini8{
+
+    .ini8 {
         background-color: $recursos-bgc;
     }
-    img{
+
+    img {
         border-radius: 20px;
         padding: 10px;
     }
-    h3{
+
+    h3 {
         text-transform: uppercase;
         padding: 10px;
         text-align: center;
     }
-    p{
+
+    p {
         padding: 10px;
-        text-align:justify;
+        text-align: justify;
     }
-    br{
+
+    br {
         padding: 60px;
     }
 
