@@ -27,13 +27,27 @@ html {
   color: white;
   text-shadow: 5px 5px 15px black; }
 
-body {
-  background-image: linear-gradient(to bottom, #034001, #218C03, #1B7302, #155902, #102601); }
-  body img {
-    margin: auto;
-    display: block;
-    height: 100%;
-    width: 100%; }
+@keyframes fondoBody {
+  0% {
+    background-position: 0 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0 50%; } }
+
+#bgBodyColor {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #fe8e7b, #ff6787, #ffb68c, #d18bc0, #DDBFF2);
+  position: relative;
+  animation: fondoBody 20s ease-in-out infinite;
+  background-size: 400% 400%; }
+
+img {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 100%; }
 
 /* -- Boton subir -- */
 .subir {
