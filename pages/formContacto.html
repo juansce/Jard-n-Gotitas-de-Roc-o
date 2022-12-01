@@ -34,31 +34,23 @@
 
     <main class="contenedorContacto">
         <h3 class="cont1">Formulario de contacto</h3>
-        <form class="cont2" action="./../pages/php/enviar.php" method="post" enctype="text/plain" netlify>
-
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre"><br><br>
-
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="Apellido"><br><br>
-
-            <label for="correo">Correo:</label>
-            <input type="email" name="correo"><br><br>
-
-            <label for="alumno">Es alumno: </label>
-            <input type="checkbox" name="alumno" id=""><br><br>
-
-            <label for="sala">Indique la sala a la que concurre</label><br>
-            <input type="radio" name="sala" id="">3 años <br>
-            <input type="radio" name="sala" id="">4 años <br>
-            <input type="radio" name="sala" id="">5 años <br>
-            <input type="radio" name="sala" id="">6 años <br><br>
-
-            <label for="comentarios">Comentarios:</label><br>
-            <textarea name="comentarios" id="" cols="70" rows="15"></textarea><br><br>
-
-            <input type="submit" value="Enviando" class="botonContacto">
-            <input type="reset" class="botonContacto">
+        <form class="cont2" action="./../pages/php/enviar.php" method="post" enctype="text/plain">
+            <label class="contNombTit" for="nombre">Nombre:</label>
+            <input class="contNombIn" type="text" name="nombre">
+            <label class="contApeTit" for="apellido">Apellido:</label>
+            <input class="contApeIn" type="text" name="Apellido">
+            <label class="contMailTit" for="correo">Correo:</label>
+            <input class="contMailIn" type="email" name="correo">
+            <label class="contAlumTit" for="alumno">Es alumno: </label>
+            <input class="contAlumIn" type="checkbox" name="alumno" id="">
+            <label class="contSala" for="sala">Indique la sala a la que concurre</label>
+            Sala verde - deambuladores<input class="contSalaVerde" type="radio" name="sala" id="">
+            Sala naranja<input class="contSalaNaranja" type="radio" name="sala" id="">
+            Sala violeta<input class="contSalaVioleta" type="radio" name="sala" id="">
+            <label class="contComentario" for="comentarios">Comentarios:</label>
+            <textarea class="contComentIn" name="comentarios" id=""></textarea>
+            <input type="submit" value="Enviando" class="botonEnviado">
+            <input type="reset" class="botonReset">
         </form>
     </main>
 
