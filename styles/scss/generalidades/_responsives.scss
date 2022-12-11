@@ -366,6 +366,11 @@
 /*---------------------------------------------------------------*/
 
 /* Responsividad para PCEscritorios*/
+
+/*---------------------------------------------------------------*/
+/*---------------------------------------------------------------*/
+
+
 @media only screen and (min-width: $pcEscritorios) {
 
     /*Cabecera*/
@@ -373,7 +378,7 @@
         @include grid(none, center, center);
         grid-template-columns: $columnas;
         grid-template-rows: repeat(5, auto);
-        font-size: 3.5em;
+        font-size: 3.0em;
 
         .cabLogo {
             grid-column: 1/5;
@@ -384,7 +389,6 @@
         .cabTitulo {
             grid-column: 5/13;
             grid-row: 1/3;
-
         }
 
         .cabSubtitulo {
